@@ -26,7 +26,13 @@ end;
 
 - Csharp
 
-```Csharp
+```CSharp
+string.empty;
+int a;
+a.toString();
+```
+
+```C#
 string.empty;
 int a;
 a.toString();
