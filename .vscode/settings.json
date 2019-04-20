@@ -1,0 +1,9 @@
+{
+        /***** markdown截图保存路径 *****/
+    //截图保存的图片名前缀
+    "pasteImage.namePrefix": "image-${currentFileNameWithoutExt}_",
+    "pasteImage.basePath": "${projectRoot}",
+    "pasteImage.prefix": "/",
+    //截图保存的文件夹路径
+    "pasteImage.path": "${projectRoot}/assets/img/${currentFileNameWithoutExt}"
+}

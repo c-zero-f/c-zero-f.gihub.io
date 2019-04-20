@@ -3,6 +3,10 @@
     <a id="sidebar-avatar" href="{{ "/" | prepend: site.baseurl }}">
       <img id="sidebar-avatar-img" alt="{{ site.tittle }}" src="{{ "/assets/img/avatar.jpg" | prepend: site.baseurl }}"/>
     </a>
+	
+	<div id="sidebar-social">
+      <a href="mailto:{{ site.email }}" class="sidebar-social-icon email"></a>
+    </div>
 
     <ul id="sidebar-tags">
       <li class="sidebar-tag active" data-filter="all">全部文章</li>
@@ -17,9 +21,6 @@
       {% endif %}
     </ul>
 
-    <div id="sidebar-social">
-      <a href="mailto:{{ site.email }}" class="sidebar-social-icon email"></a>
-    </div>
   </div>
 
   <div id="sidebar-right">
