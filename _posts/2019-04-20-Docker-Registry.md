@@ -26,6 +26,7 @@ end;
 
 - Csharp
 
+{% highlight CSharp linenos %}
 ```CSharp
 using System;
 using System.Collections.Generic;
@@ -84,7 +85,9 @@ namespace GenericApplication
     }
 }
 ```
+{% endhighlight %}
 
+{% highlight C# linenos %}
 ```C#
 using System;
 using System.Collections.Generic;
@@ -143,6 +146,7 @@ namespace GenericApplication
     }
 }
 ```
+{% endhighlight %}
 
 
 
